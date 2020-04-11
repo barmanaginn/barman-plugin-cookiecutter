@@ -1,4 +1,4 @@
-# BarMan-plugin-cookiecutter
+# barman-plugin-cookiecutter
 
 This a cookiecutter template to create plugins for [barman](https://github.com/barmanaginn/barman).
 
@@ -8,7 +8,7 @@ Go in your barman dev instance. The recommendation is to use a separate director
 
 ```
 cd plugins
-cookiecutter https://github.com/barmanaginn/barman
+cookiecutter https://github.com/barmanaginn/barman-plugin-cookiecutter
 ```
 
 You will be prompted some questions to populate the templates :
