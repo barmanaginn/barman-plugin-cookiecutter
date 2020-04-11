@@ -1,0 +1,11 @@
+{
+	"repo_name": "barman-myawesomeplugin",
+	"module_name": "barman_myawesomeplugin",
+	"name": "My awesome plugin",
+	"author": "Your name",
+	"email": "Your email",
+	"description": "Short description",
+	"repo_url": "Repository url",
+	"year": "Current year",
+	"version": "Version"
+}

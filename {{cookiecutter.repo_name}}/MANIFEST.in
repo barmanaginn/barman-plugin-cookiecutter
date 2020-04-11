@@ -1,0 +1,4 @@
+include LICENSE
+include README.md
+recursive-include {{cookiecutter.module_name}}/templates *
+recursive-include {{cookiecutter.module_name}}/static *
