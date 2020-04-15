@@ -14,4 +14,6 @@
 # You should have received a copy of the GNU General Public License
 # along with {{cookiecutter.repo_name}}.  If not, see <https://www.gnu.org/licenses/>.
 
-# Define here models or additionnal fields.
+# Define here models or additionnal fields.o
+
+from django.db import models
