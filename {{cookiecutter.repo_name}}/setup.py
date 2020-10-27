@@ -11,7 +11,7 @@ except:
 
 setup(
     name="{{cookiecutter.repo_name}}",
-    version={{cookiecutter.version}},
+    version="{{cookiecutter.version}}",
     description="{{cookiecutter.description}}",
     long_description=long_description,
     author="{{cookiecutter.author}}",
