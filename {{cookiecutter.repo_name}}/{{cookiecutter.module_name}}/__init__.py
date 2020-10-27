@@ -13,6 +13,9 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with {{cookiecutter.repo_name}}.  If not, see <https://www.gnu.org/licenses/>.
+"""
+Define BarMan plugin.
+"""
 
 from django.utils.translation import ugettext_lazy as _
 
@@ -20,13 +23,19 @@ from barman.plugin import BarmanPlugin
 
 
 class PluginApp(BarmanPlugin):
+    """
+    Define django app.
+    """
     name = "{{cookiecutter.module_name}}"
 
     class BarmanPluginMeta:
+        """
+        Information on the plugin.
+        """
         name = "{{cookiecutter.name}}"
         author = "{{cookiecutter.author}}"
         description = _("{{cookiecutter.description}}")
-        version = {{cookiecutter.version}}
+        version = "{{cookiecutter.version}}"
         url = "{{cookiecutter.repo_url}}"
         email = "{{cookiecutter.email}}"
 
@@ -40,6 +49,9 @@ class PluginApp(BarmanPlugin):
         user_profile = ()
 
     def ready(self):
+        """
+        Load signals.
+        """
         from . import signals
         return super().ready()
 

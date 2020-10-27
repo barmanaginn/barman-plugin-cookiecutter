@@ -15,7 +15,7 @@
 # along with {{cookiecutter.repo_name}}.  If not, see <https://www.gnu.org/licenses/>.
 
 """
-Views for {{cookiecutter.name}}.
+Tests for {{cookiecutter.name}}.
 """
 
-from django.shortcuts import render
+from django.test import TestCase

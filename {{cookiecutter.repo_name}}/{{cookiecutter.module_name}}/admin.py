@@ -13,4 +13,8 @@
 # You should have received a copy of the GNU General Public License
 # along with {{cookiecutter.repo_name}}.  If not, see <https://www.gnu.org/licenses/>.
 
+"""
+Admin classes for {{cookiecutter.name}}.
+"""
+
 from django.contrib import admin
